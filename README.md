@@ -5,6 +5,8 @@
 
 ## Kaggle 分数: 0.77272
 
+[Kaggle竞赛排行榜](https://www.kaggle.com/competitions/titanic/leaderboard)
+
 使用随机森林、梯度提升和逻辑回归的集成方法进行增强型泰坦尼克号生存预测。特征包括：家庭指标、年龄分组、票价类别和称谓提取。交叉验证准确率约为82%。
 
 ## 项目背景
@@ -92,6 +94,15 @@ python titanic.py
 6. 多模型训练与评估
 7. 模型优化
 8. 集成学习与预测
+
+## 可以通过以下命令安装依赖：
+```bash
+# 安装基本依赖
+pip install -r requirements.txt
+
+# 或安装精确版本依赖（如果提供）
+pip install -r requirements_exact.txt
+```
 
 ## 许可证
 
